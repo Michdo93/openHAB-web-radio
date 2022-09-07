@@ -1,5 +1,5 @@
 # openHAB-web-radio
-Using the [Sonos Binding](https://www.openhab.org/addons/bindings/sonos/) to allow openHAB to function as web radio by playing `.mp3` live streams. Sadly `.aac` will not work. Also the `URI` must end with `.mp3`.
+Using the [Sonos Binding](https://www.openhab.org/addons/bindings/sonos/) to allow openHAB to function as web radio by playing `.mp3` live streams. If the URI contains `aac` or does not end by `.mp3` you have to add `x-rincon-mp3radio`.
 
 ## Items
 
